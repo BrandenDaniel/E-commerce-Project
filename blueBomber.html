@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img class="d-inline-block align-left" width="250" height="14" src="img/logo.png" alt="Website Logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link catalog" href="index.html#catalog">Catalog</a>
+          <a class="my-auto shopping-cart-icon" href="shoppingCart.html"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"><span class="cart-item badge badge-default"> 0 </span></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- checkout-notification -->
+    <div class="checkout-notification">
+      <a href="shoppingCart.html"><span>Item added to cart. <span>View cart and checkout.</span></span></a>
+    </div>
+
+    <!-- Product Page -->
+    <div class="container main-container">
+      <div class="row">
+        <div class="col-md-6 product-page">
+          <img class="navyBluePolo-page img-fluid" src="img/bluejacket.png" alt="Blue Bomber Jacket" width="500" height="500">
+        </div>
+        <div class="col-md-6">
+          <h1 class="product-title">Bomber Jacket (Blue)</h1>
+          <p class="product-price">$74.99</p>
+          <div class="select">
+            <label class="size-label" for="product-size">Size</label>
+            <select id="product-size">
+              <option value="volvo">Extra Small</option>
+              <option value="saab">Small</option>
+              <option value="opel">Medium</option>
+              <option value="audi">Large</option>
+              <option value="audi">Extra Large</option>
+            </select>
+            <button class="btn btn-primary cart" type="submit">ADD TO CART</button>
+          </div>
+          <div class="product-description">
+            <p>Get back to basics with the Core New Tommy Knit Polo from Tommy Hilfiger. Wear yours with chino shorts and boat shoes for a classic look.</p>
+          </div>
+          <hr>
+          <div class="media-share">
+            <a class="share-btn" target="_blank" href="http://www.facebook.com/sharer.php"><i class="fa fa-share" aria-hidden="true"> SHARE</i></a>
+            <a class="tweet-btn" target="_blank" href="https://twitter.com/share?"><i class="fa fa-twitter" aria-hidden="true"> TWEET</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="back">
+      <a class="back-btn" href="index.html#catalog"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>BACK TO CATALOG</a>
+  </div>
+
+  <div class="closing">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="follow-us closing-content">
+          <small>FOLLOW US</small>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            <li><a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i> Snapchat</a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="closing-content">
+          <small>HELP &amp; SUPPORT</small>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="subscribe closing-content">
+          <small>GET THE LATEST</small>
+        </div>
+        <div class="newsletter">
+          <p>Subcribe to our newsletter and get a 10% discount on your next purchase.</p>
+        </div>
+        <div class="input-group email-input">
+          <input type="text" class="form-control" placeholder="Enter your email address...">
+          <div class="submit-btn">
+            <button type="button" class="btn btn-secondary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="img/logo.png" width="200">
+  </footer>
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
