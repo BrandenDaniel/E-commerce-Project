@@ -308,6 +308,7 @@ html {
   border: 1px solid #FF7B61;
   color: #fff;
   margin-left: auto;
+  cursor: not-allowed;
 }
 
 .total-cost {
@@ -351,18 +352,18 @@ html {
 .remove-item {
   margin-left: 2.35em;
   margin-top: .65em;
-  padding: .2em;
-  font-size: .85em;
-  border: 1px solid #555;
-  color: #555;
-  border-radius: 1px;
+  padding: .2em .2em .05em .2em;
+  font-size: .75em;
+  border: 1px solid #ccc;
+  color: #777;
+  border-radius: 3px;
   background: #eee;
 }
 
 .remove-item:hover {
   color: #fff;
-  background-color: #999;
-  border-color: #999;
+  background-color: #aaa;
+  border-color: #aaa;
   cursor: pointer;
   transition: .05s;
 }
@@ -502,6 +503,10 @@ footer {
   text-align: center;
   background-color: #FA5737;
   display: none;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+
 }
 
 .checkout-notification p {
@@ -577,7 +582,7 @@ footer {
   }
 
   .cart-price {
-    margin: 0;
+    margin: 0 0 2.5em 0;
   }
 
   .item-1 img, .item-2 img, .item-3 img{
@@ -585,8 +590,16 @@ footer {
   }
 
   .proceed {
-    margin: 1em auto;
+    margin: 1.83em auto;
+    height: 2.3em;
+    font-size: 1em;
   }
+
+  .product-title {
+    margin-top: 2em;
+  }
+
+
 }
 
 
