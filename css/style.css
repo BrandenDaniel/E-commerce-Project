@@ -259,11 +259,12 @@ html {
   color: #E3E3E3;
   background: #232323;
   border-color: #aaa;
-  transition: .3s;
+  transition: .1s;
 }
 
 .back-btn i {
   padding: 0 .5em;
+  font-weight: 700;
 }
 
 .display {
@@ -516,7 +517,7 @@ footer {
 .checkout-notification p {
   color: #fff;
   text-decoration-color: #fff;
-  padding: .3em;
+  padding: .4em;
   margin: 0;
 }
 
@@ -556,6 +557,10 @@ footer {
 
   .price {
     margin-bottom: 4em;
+  }
+
+  .product-page {
+    margin-top: 3em;
   }
 
   .cart-center {
@@ -606,7 +611,15 @@ footer {
   }
 
   .total-cost {
-    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pgc {
+    text-align: center;
+  }
+
+  .product-description {
+    margin: 1em auto;
   }
 }
 
@@ -619,8 +632,6 @@ footer {
   .main-img {
     padding: 1.5em;
   }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -634,7 +645,6 @@ footer {
 
   .cart-header {
   }
-
 }
 
 @media (max-width: 487px) {
