@@ -82,8 +82,8 @@ html {
 }
 
 .polo {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   background-color: #E3E3E3;
   padding-bottom: 1em;
 }
@@ -396,6 +396,10 @@ html {
   font-weight: 700;
 }
 
+.cart-price::before {
+  content: "$";
+}
+
 /*Footer*/
 .social-media, .newsletter {
   margin: 2em;
@@ -590,16 +594,20 @@ footer {
   }
 
   .proceed {
-    margin: 1.83em auto;
+    margin: 1.83em 1.0em 1.83em auto;
     height: 2.3em;
     font-size: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
   }
 
   .product-title {
     margin-top: 2em;
   }
 
-
+  .total-cost {
+    margin-left: auto;
+  }
 }
 
 
@@ -612,6 +620,7 @@ footer {
     padding: 1.5em;
   }
 
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -623,11 +632,21 @@ footer {
     margin-left: 2em;
   }
 
+  .cart-header {
+  }
+
 }
 
 @media (max-width: 487px) {
   .polo {
     height: 250px;
     width: 250px;
+  }
+}
+
+@media (max-width: 559px) {
+  .cart-header {
+    font-size: 1.9em;
+    padding: .45em 0;
   }
 }
