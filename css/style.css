@@ -25,6 +25,7 @@ html {
 }
 
 /*Navbar*/
+
 .shopping-cart-icon i {
   color: #000;
   font-size: 1.7em;
@@ -70,23 +71,36 @@ html {
   font-size: 10em;
 }
 
-.logo{
+.logo {
   width: 250px;
 }
 
 /*Main-Content / Index-page*/
+
 .featuring {
-  font-size: 2em;
-  margin: 1.7em;
+  font-size: 2.25em;
+  margin: 1em auto 2em auto;
   font-family: 'Rozha One', serif;
+  background: #222;
+  display: inline-block;
+  padding: .25em .5em;
+  color: #E3E3E3;
+
 }
 
 .polo {
   width: 280px;
   height: 280px;
   background-color: #E3E3E3;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  display: block;
+  margin: 0 auto;
 }
+
+.grayPolo, .pinkPolo, .grayBomber {
+  width: 260px;
+}
+
 
 .product-hover:hover {
   opacity: 0.8;
@@ -103,14 +117,20 @@ html {
   font-weight: 500;
   color: #666;
   font-size: .8em;
+  display: inline-block;
 }
 
 .merch {
-  font-weight: 600;
+  font-weight: 400;
   font-size: .9em;
   padding: .6em;
   color: #000;
   font-family: helvetica;
+  display: inline-block;
+  border-right: 1px solid rgba(0,0,0,.2);
+  padding: 0 .55em;
+  margin-right: .3em;
+  font-family: 'Actor', helvetica;
 }
 
 .product-hover a {
@@ -122,7 +142,6 @@ html {
   margin-bottom: 3em;
 }
 
-
 /*Product-Page*/
 
 .product-page {
@@ -132,21 +151,24 @@ html {
 
 .product-page img {
   margin-left: -1em;
-  width: 300px;
+  width: 310px;
+  height: 300px;
 }
 
 .product-title {
   margin-top: 4em;
   font-size: 1.5em;
   font-weight: 700;
-  font-family: helvetica;
+  font-family: 'Actor', helvetica;
 }
 
 .product-price {
   font-weight: 700;
   color: #777;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   font-size: .85em;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-bottom: .85em;
 }
 
 .size-label {
@@ -182,12 +204,14 @@ html {
 
 .product-description {
   margin: 2em 0;
-  font-size: .8em;
-  width: 80%;
+  font-size: .75em;
+  width: 70%;
 }
 
 .product-description p {
-  font-weight: 100;
+  font-weight: 400;
+  color: rgba(0,0,0,.6);
+  line-height: 1.3em;
 }
 
 .media-share {
@@ -202,7 +226,7 @@ html {
   height: 80px !important;
   padding: 3px 5px;
   font-family: helvetica;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .share-btn:hover, .tweet-btn:hover {
@@ -268,10 +292,11 @@ html {
 }
 
 .display {
-  width: 400px;
+  width: 450px;
 }
 
 /*item-in-cart*/
+
 .cart-item {
   padding: 3px 6px;
   font-family: 'Source Serif Pro';
@@ -297,7 +322,7 @@ html {
   font-family: 'Roboto', serif;
 }
 
-.input-group{
+.input-group {
   margin-left: -6em;
 }
 
@@ -329,7 +354,6 @@ html {
   background-color: #fff;
   border: 1px solid #aaa;
   color: #333;
-
 }
 
 .proceed i {
@@ -402,6 +426,7 @@ html {
 }
 
 /*Footer*/
+
 .social-media, .newsletter {
   margin: 2em;
   margin-top: 1.4em;
@@ -488,8 +513,8 @@ footer {
   height: 9px;
 }
 
-
 /*Shopping cart page*/
+
 .shopping-cart h1 {
   font-weight: 800;
   text-align: center;
@@ -502,8 +527,8 @@ footer {
   margin-bottom: -2em;
 }
 
-
 /*Checkout notification*/
+
 .checkout-notification {
   text-align: center;
   background-color: #FA5737;
@@ -511,7 +536,6 @@ footer {
   position: fixed;
   z-index: 10;
   width: 100%;
-
 }
 
 .checkout-notification p {
@@ -529,12 +553,10 @@ footer {
   .product-page img {
     margin-top: -1.5em;
   }
-
   .product-title {
     margin-top: 3.2em;
     font-size: 1.4em;
   }
-
   .back {
     margin: 3em 0 5em 0;
   }
@@ -552,50 +574,39 @@ footer {
     content: "Cart";
     color: #000;
   }
-
   .price {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
   }
-
   .product-page {
     margin-top: 3em;
   }
-
   .cart-center {
     text-align: center !important;
   }
-
   .checkout-info {
     margin-top: -4em;
     text-align: center !important;
   }
-
   .cart-item-header, .cart-size, .remove-item, .cart-header {
     margin-left: 0;
     text-align: center;
   }
-
   .amount-selector {
     text-align: center;
   }
-
   .amount-box {
     width: 30px;
   }
-
   .inputs {
     margin: 1em;
     text-align:
   }
-
   .cart-price {
-    margin: 0 0 2.5em 0;
+    margin: 0 0 2em 0;
   }
-
-  .item-1 img, .item-2 img, .item-3 img{
+  .item-1 img, .item-2 img, .item-3 img {
     width: 250px;
   }
-
   .proceed {
     margin: 1.83em 1.0em 1.83em auto;
     height: 2.3em;
@@ -603,68 +614,53 @@ footer {
     padding-left: .5em;
     padding-right: .5em;
   }
-
   .product-title {
-    margin-top: 2em;
-    font-size: 1.2em;
+    margin-top: 1.5em;
+    font-size: 1.5em;
   }
-
   .product-page img {
     margin-top: .5em;
-    width: 250px;
+    width: 255px;
+    height: 240px;
   }
-
   .total-cost {
     margin-right: auto;
   }
-
   .pgc {
     text-align: center;
   }
-
   .product-description {
     margin: 1em auto;
   }
 }
 
-
 @media (max-width: 355px) {
   .logo {
     width: 230px;
   }
-
   .main-img img {
     padding: 1em;
   }
-
   .cart, #product-size {
     font-size: .65em;
   }
-
   .product-title {
     font-size: 1em;
   }
-
   .product-price {
     font-size: .75em;
   }
-
   .product-description p {
     font-size: .75em;
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .polo {
-    height: 210px;
+    height: 230px;
   }
-
   .checkout-info {
     margin-left: 2em;
-  }
-
-  .cart-header {
   }
 }
 
@@ -674,9 +670,13 @@ footer {
     width: 230px;
   }
 
+  .grayPolo, .pinkPolo, .grayBomber {
+    width: 215px;
+  }
+
   .featuring {
-    font-size: 2em;
-    margin: 1em;
+    font-size: 1.75em;
+    margin: 1em auto 2em auto;
   }
 }
 
@@ -685,7 +685,6 @@ footer {
     font-size: 1.9em;
     padding: .45em 0;
   }
-
   .main-img {
     padding: .2em;
   }
