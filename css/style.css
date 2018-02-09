@@ -92,7 +92,7 @@ html {
   width: 280px;
   height: 280px;
   background-color: #E3E3E3;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   display: block;
   margin: 0 auto;
 }
@@ -112,24 +112,23 @@ html {
 }
 
 .price {
-  margin-bottom: 2em;
-  margin-top: -1.5em;
   font-weight: 500;
   color: #666;
   font-size: .8em;
   display: inline-block;
+  margin-bottom: 0;
+  padding-right: .45em;
 }
 
 .merch {
   font-weight: 400;
   font-size: .9em;
-  padding: .6em;
   color: #000;
   font-family: helvetica;
   display: inline-block;
   border-right: 1px solid rgba(0,0,0,.2);
-  padding: 0 .55em;
-  margin-right: .3em;
+  padding: 0 .55em 0 0;
+  margin: 0 .3em 0 .4em;
   font-family: 'Actor', helvetica;
 }
 
@@ -140,6 +139,15 @@ html {
 .row2 {
   margin-top: 2em;
   margin-bottom: 3em;
+}
+
+.item-price-container {
+  background-color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  padding: .2em 0 .25em 0;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 3px;
 }
 
 /*Product-Page*/
@@ -431,12 +439,15 @@ html {
   margin: 2em;
   margin-top: 1.4em;
   margin-bottom: 2.5em;
+}
+
+.social-media {
   white-space: nowrap;
 }
 
 .social-media i {
   font-size: 1em;
-  margin: 0;
+  padding-right: .2em;
   color: #E3E3E3;
 }
 
@@ -560,8 +571,8 @@ footer {
   .back {
     margin: 3em 0 5em 0;
   }
-  .price {
-    margin-bottom: 6em;
+  .item-price-container {
+    width: 82%;
   }
 }
 
@@ -573,9 +584,6 @@ footer {
   .shopping-cart-icon::before {
     content: "Cart";
     color: #000;
-  }
-  .price {
-    margin-bottom: 5em;
   }
   .product-page {
     margin-top: 3em;
@@ -632,6 +640,11 @@ footer {
   .product-description {
     margin: 1em auto;
   }
+
+  .item-price-container {
+    margin-bottom: 5em;
+    width: 173px;
+  }
 }
 
 @media (max-width: 355px) {
@@ -655,7 +668,7 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .polo {
     height: 230px;
   }
@@ -675,7 +688,7 @@ footer {
   }
 
   .featuring {
-    font-size: 1.75em;
+    font-size: 1.55em;
     margin: 1em auto 2em auto;
   }
 }
