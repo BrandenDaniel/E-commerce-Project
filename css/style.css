@@ -172,7 +172,6 @@ html {
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
-
 .add-to-cart-btn {
   margin-bottom: 2em;
   background: #555;
@@ -647,7 +646,7 @@ footer {
   .mobile-item-seperation {
     padding-bottom: 2.5em;
     border-bottom: 1px solid rgba(0,0,0,.1);
-    width: 85%;
+    width: 90%;
     margin: 0 auto 2.5em auto !important;
   }
   .last-item {
@@ -700,7 +699,7 @@ footer {
   }
   .item-1, .item-2 {
     border-bottom: 1px solid rgba(0,0,0,.1);
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
   }
   .proceed {
