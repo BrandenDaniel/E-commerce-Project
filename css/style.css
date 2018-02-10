@@ -178,7 +178,7 @@ html {
   background: #555;
   color: #fff;
   border-radius: 3px;
-  padding: 0 .35em .1em .35em;
+  padding: .15em .35em .1em .35em;
   font-size: .8em;
 }
 
@@ -645,9 +645,10 @@ footer {
     width: 173px;
   }
   .mobile-item-seperation {
-    margin-bottom: 3em !important;
-    padding-bottom: 3em;
+    padding-bottom: 2.5em;
     border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 85%;
+    margin: 0 auto 2.5em auto !important;
   }
   .last-item {
     border: none;
@@ -688,17 +689,19 @@ footer {
     margin: 1em 0 .5em 0;
   }
   .cart-price {
-    margin: 0 0 3em 0;
+    margin: 0 0 2.5em 0;
   }
   .item-1 img, .item-2 img, .item-3 img {
     width: 250px;
   }
   .item-in-cart {
     width: 160px;
-    padding: 3em 0 1em 0;
+    padding: 2.5em 0 1em 0;
   }
   .item-1, .item-2 {
     border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 85%;
+    margin: 0 auto;
   }
   .proceed {
     margin: 1.83em 1.0em 1.83em auto;
