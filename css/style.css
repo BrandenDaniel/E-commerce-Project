@@ -25,12 +25,18 @@ html {
 }
 
 /*Navbar*/
+.navbar-brand img {
+  width: 180px !important;
+  height: 100%;
+}
 
-.shopping-cart-icon i {
-  color: #000;
-  font-size: 1.7em;
-  margin: .3em 1em 0 3em;
-  position: relative;
+.navbar {
+  padding: .25em 2em;
+}
+
+.fa-shopping-cart {
+  color: rgba(0,0,0,.7);
+  margin-left: .5em;
 }
 
 .shopping-cart-icon i .cart-item {
@@ -64,11 +70,7 @@ html {
 .carousel-item img {
   width: 100%;
   height: 100%;
-  max-width: 1700px;
-}
-
-.fa-shopping-cart {
-  font-size: 10em;
+  max-width: 1100px;
 }
 
 .logo {
@@ -380,13 +382,14 @@ html {
 
 .cart-size {
   margin-top: .5em;
-  margin-left: 2.05em;
+  margin-left: 2.4em;
   font-weight: 700;
   color: #333;
   display: inline-block;
-  padding: .1em .33em;
-  border-radius: 15px;
+  padding: 0 .3em .1em .25em;
+  border-radius: 5px;
   border: 1px solid rgba(0,0,0,.2);
+  font-size: .85em;
 }
 
 .remove-item {
@@ -411,12 +414,18 @@ html {
 
 .inputs {
   margin-top: 5em;
+  margin-right: 1em;
+  text-align: right;
 }
 
 .amount-box {
-  width: 30px;
+  width: 25px;
+  height: 18px;
   font-size: .75em;
   text-align: center;
+  padding-top: 1px;
+  margin: 0 .2em;
+  border: none;
 }
 
 .add:hover, .reduce:hover {
@@ -424,16 +433,11 @@ html {
   cursor: pointer;
 }
 
-.add, .reduce {
-  padding: 0 .3em;
-  color: rgba(0,0,0,.7);
-}
-
 .cart-price {
-  margin-top: 5.75em;
-  font-family: 'Roboto', helvetica;
+  margin-top: 6.4em;
+  font-family: monospace;
   color: #666;
-  font-size: .9em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -453,10 +457,8 @@ html {
   white-space: nowrap;
 }
 
-.social-media i {
-  font-size: 1em;
-  padding-right: .2em;
-  color: #E3E3E3;
+.fa-twitter, .fa-instagram, .fa-snapchat-ghost, .fa-youtube {
+  margin-right: .25em;
 }
 
 .social-media i:hover {
@@ -607,6 +609,9 @@ footer {
     margin-left: 0;
     text-align: center;
   }
+  .cart-size {
+    padding-top: 1px !important;
+  }
   .remove-item {
     margin: 0 auto;
   }
@@ -614,13 +619,15 @@ footer {
     text-align: center;
     border-top: 1px solid rgba(0,0,0,.2);
     border-bottom: 1px solid rgba(0,0,0,.2);
-    padding: .55em 0 .65em 0;
+    padding: .5em 0 .6em 0;
+    width: 130px;
+    margin: 0 auto;
   }
   .amount-box {
     width: 30px;
   }
   .inputs {
-    margin: 1em;
+    margin: 1em 0 .5em 0;
     text-align:
   }
   .cart-price {
