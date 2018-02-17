@@ -623,14 +623,10 @@ footer {
     width: 50%;
   }
   .item-seperation {
-    margin: 3em auto;
+    margin: 2.5em auto;
   }
   .featuring {
-    margin-bottom: 1em;
-  }
-  .last-item {
-    border: none;
-    margin-bottom: 0em !important;
+    margin-bottom: 1.5em !important;
   }
   .hr-line {
     display: none;
