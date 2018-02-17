@@ -88,7 +88,7 @@ html {
 
 .featuring {
   font-size: 2.25em;
-  margin: 1em auto 2em auto;
+  margin: 1em auto;
   font-family: 'Rozha One', serif;
   background: #222;
   display: inline-block;
@@ -100,7 +100,8 @@ html {
   width: 280px;
   height: 280px;
   background-color: #E3E3E3;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
+  margin: 3em auto 0 auto !important;
   display: block;
   margin: 0 auto;
 }
@@ -161,8 +162,8 @@ html {
 }
 
 .item-price-container {
-  width: 60%;
-  margin: 0 auto .25em auto;
+  width: 50%;
+  margin: 0 auto .35em auto;
   padding: .5em 0 .55em 0;
   border-radius: 3px;
   border-top: 1px solid rgba(0, 0, 0, .1);
@@ -174,17 +175,13 @@ html {
   background: #555;
   color: #fff;
   border-radius: 3px;
-  padding: .15em .35em .1em .35em;
+  padding: .3em .45em .3em .45em;
   font-size: .8em;
 }
 
 .add-to-cart-btn:hover {
   color: #fff;
   text-decoration: none;
-}
-
-.hr-line {
-  margin: 3em 0;
 }
 
 /*Product-Page*/
@@ -429,7 +426,7 @@ html {
 .remove-item {
   margin-left: 2.75em;
   margin-top: 1.6em;
-  padding: .2em .2em .05em .2em;
+  padding: .35em .35em .1em .35em;
   font-size: .75em;
   border: 1px solid #ccc;
   color: #666;
@@ -604,21 +601,7 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 992px) {
-  .product-page img {
-    margin-top: -1.5em;
-  }
-  .product-title {
-    margin-top: 3.2em;
-    font-size: 1.4em;
-  }
-  .back {
-    margin: 3em 0 5em 0;
-  }
-  .item-price-container {
-    width: 82%;
-  }
-}
+
 
 @media (max-width: 767px) {
   .shopping-cart-icon i {
@@ -637,14 +620,13 @@ footer {
   }
   .item-price-container {
     margin-bottom: .25em;
-    width: 173px;
+    width: 50%;
   }
-  .mobile-item-seperation {
-    padding-bottom: 3em;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    width: 95%;
-    margin: 0 auto 3em auto !important;
-    box-shadow: 0em .2em .3em -4px rgba(0, 0, 0, .2);
+  .featuring {
+    margin-bottom: 0;
+  }
+  .polo {
+    margin: 6em auto 0 auto !important;
   }
   .last-item {
     border: none;
@@ -675,7 +657,7 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, .2);
     border-bottom: 1px solid rgba(0, 0, 0, .2);
     padding: .2em 0 .4em 0;
-    width: 130px;
+    width: 80px;
     margin: 0 auto;
   }
   .amount-box {
@@ -781,8 +763,24 @@ footer {
   }
 }
 
-@media (min-width: 1199px) {
+@media (max-width: 992px) and (min-width: 768px) {
+  .product-page img {
+    margin-top: -1.5em;
+  }
+  .product-title {
+    margin-top: 3.2em;
+    font-size: 1.4em;
+  }
+  .back {
+    margin: 3em 0 5em 0;
+  }
   .item-price-container {
-    width: 50%;
+    width: 79%;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 993px) {
+  .item-price-container {
+    width: 57%;
   }
 }
