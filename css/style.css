@@ -101,9 +101,8 @@ html {
   height: 280px;
   background-color: #E3E3E3;
   padding-bottom: 1em;
-  margin: 3em auto 0 auto !important;
-  display: block;
   margin: 0 auto;
+  display: block;
 }
 
 .grayPolo, .pinkPolo, .grayBomber {
@@ -156,10 +155,7 @@ html {
   text-decoration: none;
 }
 
-.row2 {
-  margin-top: 2em;
-  margin-bottom: 3em;
-}
+
 
 .item-price-container {
   width: 50%;
@@ -335,6 +331,10 @@ html {
 
 .display {
   width: 450px;
+}
+
+.item-seperation {
+  margin: 2em auto;
 }
 
 /*item-in-cart*/
@@ -622,11 +622,11 @@ footer {
     margin-bottom: .25em;
     width: 50%;
   }
-  .featuring {
-    margin-bottom: 0;
+  .item-seperation {
+    margin: 3em auto;
   }
-  .polo {
-    margin: 6em auto 0 auto !important;
+  .featuring {
+    margin-bottom: 1em;
   }
   .last-item {
     border: none;
