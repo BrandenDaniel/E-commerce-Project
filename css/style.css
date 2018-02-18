@@ -87,12 +87,14 @@ html {
 /*Main-Content / Index-page*/
 
 .featuring {
-  font-size: 2.25em;
-  margin: 1em auto;
+  font-size: 2.3em;
+  margin: 0 auto 1em auto;
   font-family: 'Rozha One', serif;
   background: #222;
+  width: 100%;
+  text-align: center;
   display: inline-block;
-  padding: .25em .5em;
+  padding: .5em;
   color: #E3E3E3;
 }
 
@@ -744,7 +746,7 @@ footer {
   }
   .featuring {
     font-size: 1.55em;
-    margin: 1em auto 2em auto;
+    margin: 0 auto 2em auto;
   }
 }
 
