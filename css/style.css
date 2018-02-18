@@ -155,11 +155,9 @@ html {
   text-decoration: none;
 }
 
-
-
 .item-price-container {
   width: 50%;
-  margin: 0 auto .35em auto;
+  margin: 0 auto .7em auto;
   padding: .5em 0 .55em 0;
   border-radius: 3px;
   border-top: 1px solid rgba(0, 0, 0, .1);
@@ -335,7 +333,7 @@ html {
 }
 
 .item-seperation {
-  margin: 2em auto;
+  margin: 2em auto 4em auto;
 }
 
 /*item-in-cart*/
