@@ -627,7 +627,8 @@ footer {
     margin: 2em auto;
   }
   .featuring {
-    margin-bottom: 1em !important;
+    margin-bottom: .5em !important;
+    font-size: 2em !important;
   }
   .hr-line {
     display: none;
