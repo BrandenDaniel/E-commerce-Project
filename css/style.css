@@ -157,11 +157,11 @@ html {
 
 .item-price-container {
   width: 50%;
-  margin: 0 auto .7em auto;
+  margin: 0 auto 0 auto;
   padding: .5em 0 .55em 0;
   border-radius: 3px;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  /* border-top: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1); */
 }
 
 .add-to-cart-btn {
@@ -169,8 +169,8 @@ html {
   background: #555;
   color: #fff;
   border-radius: 3px;
-  padding: .3em .45em .3em .45em;
-  font-size: .8em;
+  padding: .25em .45em .3em .45em;
+  font-size: .7em;
 }
 
 .add-to-cart-btn:hover {
@@ -600,8 +600,6 @@ footer {
   text-decoration: none;
 }
 
-
-
 @media (max-width: 767px) {
   .shopping-cart-icon i {
     margin: .4em .35em 0 .5em;
@@ -618,7 +616,6 @@ footer {
     margin-bottom: 0;
   }
   .item-price-container {
-    margin-bottom: .25em;
     width: 50%;
   }
   .add-to-cart-btn {
